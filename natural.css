@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+@font-face {font-family:'helvetica'; 
+			src:url('../fonts/Houschka%20Rounded%20Alt%20Light%20Regular.otf') format('OpenType');
+			font-weight:normal;
+			font-style:normal;}
+			
+@font-face {font-family:'helvetica';
+  			src:url('../fonts/Houschka%20Rounded%20Alt%20DemiBold%20Regular.otf') format('OpenType');
+  			font-weight:bold;} */
+
+			  @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+ 
+body	{font-family: 'Helvetica Neue', sans-serif !important; font-weight:normal; letter-spacing:1px; font-size:14px !important; font-kerning:normal !important; height: 100%;}
+
+#btn-0{
+    border-radius: 18px;
+}
+.navbar-brand{
+    width: 138.25px;
+    height: 47.52;
+}
+/* navbar button styling */
+.button-0{
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+
+/* logo image styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto
+
+}
+
+.dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+
+}
+.dropdown-menu .show{
+    display: inline-block;
+}
+.fluid-0{
+    padding: 0px;
+}
+
+/* button */
+.order-btn {
+    padding: 0;
+}
+
+
+.btn-order {
+    background-color: #00ac4e;
+    border-color: #00ac4e;
+    border-radius: 40px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0;
+    font: 20px helvetica;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-order:hover {
+    background-color: #00ac4e;
+    border-color: #00ac4e;
+    color: white;
+}
+
+.button-1{
+    position: absolute ;
+}
+
+/* image button */
+.image-button {
+    background-color: #e6dede80;
+    width: 200px;
+    color: black;
+    padding: 15px;
+    border-radius: 40px;
+    border: #e6dede80;
+    line-height: 15px;
+    font-family: helvetica;
+}
+
+.image-button:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: black;
+}
+
+
+/* footer design */
+
+.footer {
+    background-color: #39393f;
+    color: white;
+    align-content: center;
+    border: 0;
+    align-items: center;
+}
+
+.social_media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+
+    .border-end {
+        border: 0px solid !important
+    }
+}
+
+@media (max-width:576px) {
+
+    .image-button {
+        width: fit-content;
+        height: 10px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
+
+
+    }
+}
+
+body{
+    max-width: 100%;
+}
+/* ---------------------------search bar css --------------------------------*/
+#search {
+    position:fixed;
+    display: none;
+ 
+    margin-top: 77px;
+     top:0px; 
+     left:0px; 
+     width:100%; 
+     height:100px; 
+     background-color:rgba(52, 58, 64); -webkit-transition:all 0.5s ease-in-out;
+      -moz-transition:all 0.5s ease-in-out; 
+      -ms-transition:all 0.5s ease-in-out; 
+      -o-transition:all 0.5s ease-in-out;
+       transition:all 0.5s ease-in-out; 
+       -webkit-transform:translate(0px, -100%) scale(0, 0); 
+       -moz-transform:translate(0px, -100%) scale(0, 0); 
+       -ms-transform:translate(0px, -100%) scale(0, 0); 
+       -o-transform:translate(0px, -100%) scale(0, 0); 
+       transform:translate(0px, -100%) scale(0, 0); 
+       opacity:0; 
+       display:none; 
+       z-index:999999999999;}
+
+
+
+
+header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position:relative; 
+        width:100%; 
+        height:auto !important; 
+    }
+
+    .navbar-collapse.collapsing {
+        left: -100%; 
+        transition: height 0s ease;
+    } 
+	
+    .navbar-collapse.show {
+        left: 0; 
+        transition: left 300ms ease-in-out; 
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+	
+	
+
+}
+
+
+  
+ .nav-link img {
+    opacity: 95%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover img {
+    opacity: 1;
+  }
+
+
+
+.img{
+    margin-top: 80px;
+}
